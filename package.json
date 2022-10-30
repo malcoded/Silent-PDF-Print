@@ -1,0 +1,18 @@
+{
+  "name": "silently-printer",
+  "version": "1.0.0",
+  "description": "A simple service to print PDF documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "malcode",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pdf-creator-node": "^2.3.5",
+    "pdf-to-printer": "^5.3.0",
+    "pdfmake": "^0.2.6"
+  }
+}
